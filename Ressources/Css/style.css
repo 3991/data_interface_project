@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+  padding-top: 70px;
+}
+
+#footer{
+ left:50%;
+  position: absolute;
+  bottom: 0;
+}
