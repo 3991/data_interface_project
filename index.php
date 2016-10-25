@@ -2,13 +2,13 @@
 <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">tst
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Home</a>
+      <a class="navbar-brand" href="./index.php">Home</a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
@@ -18,22 +18,16 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Test AGGREGATION<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
             <li class="divider"></li>
             <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
           </ul>
         </li>
       </ul>
       <form id="signin" class="navbar-form navbar-right" role="form">
-
         <div class="input-group">
             <span class="input-group-addon "><i class="glyphicon glyphicon-info-sign"></i></span>
             <input id="token" type="text" class="form-control" name="token" value="token" placeholder="Token...">
         </div>
-
         <button type="submit" class="btn btn-primary">Login</button>
       </form>
     </div>
@@ -57,12 +51,9 @@
         <p><span class="label label-info">Info</span> test</p>
     </div>
 </div>
+<div class="alert alert-warning" role="alert"><strong>Warning!</strong>Token!!!!</div>
 <div class="container">
 <?php echo file_get_contents(""); ?>
 </div>
-<script>
-$(document).ready(function() {
-
-});
-</script>
+<script src="./Js/functions.js"></script>
 <?php require_once('Ressources/Include/footer.php'); ?>
