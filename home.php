@@ -1,7 +1,7 @@
 <?php
 session_start();
 require_once('./Ressources/Include/header.php');
-require_once('./Ressources/Include/menu.php');
+require_once('./Ressources/Include/menu_log.php');
 ?>
 <div class="container">
   <a class ="label label-default" href="#" role="button">Sujbect 1</a>
@@ -17,6 +17,6 @@ require_once('./Ressources/Include/menu.php');
     </div>
 </div>
 <div class="container">
-<?php echo file_get_contents(""); ?>
+<?php echo file_get_contents("http://expnoce.lifl.fr:8000/api/1.0/tweets/get?token=".$_SESSION['token']."&language=fr&expression=lille"); ?>
 </div>
 <?php require_once('./Ressources/Include/footer.php'); ?>

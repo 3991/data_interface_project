@@ -1,12 +1,11 @@
 <?php
 session_start();
-$erreur = "";
 
 if(isset($_POST['submit'])) {
 	if(isset($_POST['token']) && !empty($_POST['token'])){
+    $_SESSION['token'] = $_POST['token'];
 		header('Location: home.php');
 	}else if(isset($_POST['token']) && empty($_POST['token'])){
-		$erreur .= 'Id incorrect';
 	}
 }
 require_once('./Ressources/Include/header.php');
