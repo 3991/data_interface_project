@@ -11,8 +11,8 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">COUNT <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">GET</a></li>
+        <li class="active"><a href="#">HP</a></li>
+        <li><a href="#">Carte de France</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">AGGREGATION<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
@@ -25,7 +25,7 @@
       <form id="token_form" class="navbar-form navbar-right" role="form" method="post">
         <div class="input-group">
             <span class="input-group-addon "><i class="glyphicon glyphicon-info-sign"></i></span>
-            <input id="token_input" type="text" class="form-control" name="token" value="token" placeholder="Token..."/>
+            <input id="token_input" type="text" class="form-control" name="token" placeholder="Token..."/>
         </div>
         <input id="noid" name="submit" type="submit" class="btn btn-primary" value="Lancer" />
         <!--<button type="submit" class="btn btn-primary">Login</button>-->

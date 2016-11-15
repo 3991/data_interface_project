@@ -11,8 +11,8 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">COUNT <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">GET</a></li>
+        <li class="active"><a href="hp.php">HP<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Carte de France</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">AGGREGATION<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
@@ -22,6 +22,10 @@
           </ul>
         </li>
       </ul>
+      <form id="token_form" class="navbar-form navbar-right" action="logout.php" role="form" method="post">
+        <button type="submit" name="southpark" class="btn btn-primary" ><span class="glyphicon glyphicon-off"></span> Logout</button>
+      </form>
+
     </div>
   </div>
 </nav>

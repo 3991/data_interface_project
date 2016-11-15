@@ -1,3 +1,3 @@
 <?php
-//require_once('Class/??.php');
+//require_once('./Class/??.php');
 ?>
