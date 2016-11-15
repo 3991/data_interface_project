@@ -14,9 +14,10 @@ $(document).ready(function() {
     });
 });
 
-function add_harry_potter_picture() {
+function add_harry_potter_picture(element) {
   var src = "./Ressources/Images/HarryPotter.jpg";
-  show_image(src, 200, "Google Logo");
+  //show_image(src, 200, "Google Logo");
+  addRow(element, src, 200, "HP picture");
 }
 
 
@@ -26,6 +27,21 @@ function show_image(src, width, alt) {
   img.width = width;
   img.alt = alt;
   document.body.appendChild(img);
+}
+
+function addRow(elmt, src, width, alt){
+    var tr = document.createElement('tr');
+    elmt.appendChild(tr);
+
+    var td = document.createElement('td');
+    tr.appendChild(td);
+
+    var img = document.createElement("img");
+    img.src = src;
+    img.width = width;
+    img.alt = alt;
+    //var tdText = document.createTextNode(value);
+    td.appendChild(img);
 }
 
 /*

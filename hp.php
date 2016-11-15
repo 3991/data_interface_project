@@ -11,11 +11,20 @@ require_once('./Ressources/Include/menu_log.php');
         <span class="label label-info" href="#" role="button">Sujbect 3</span>
         <span class="label label-info" href="#" role="button">Sujbect 4</span></p>
           <h3 id="test">Combien de livre(s) <strong><i>Harry Potter &#225; l&apos;Ecole des Sorciers*</i></strong> peut-on &eacute;crire avec les Tweets sur <span class="label label-info" href="#" role="button">Lille</span> de cette semaine <i class="glyphicon glyphicon-question-sign"></i></h3>
-          <button type="button" class="btn btn-primary btn-block" onclick="add_harry_potter_picture();">R&eacute;ponse</button>
+          <button type="button" class="btn btn-primary btn-block" onclick="add_harry_potter_picture(document.getElementById('tableau'));">R&eacute;ponse</button>
           <!-- La version américaine (~77523 mots) -->
       </div>
     </div>
     <div class="row">
+      <TABLE id="tableau" BORDER="1">
+  <TR>
+ <TH>  </TH1>
+ <TH> </TH>
+ <TH> </TH>
+ <TH>  </TH>
+  </TR>
+
+</TABLE>
     </div>
 </div>
 
